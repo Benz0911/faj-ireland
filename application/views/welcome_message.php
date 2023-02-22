@@ -44,10 +44,8 @@
         <div class="d-flex justify-content-center">
             <div class="card" style="width: 55%;">
                 <div id="login" class="card-body text-center">
-                    <!-- <img class="mb-4" style="width:45%" src="<?=base_url();?>assets/img/logo.png"> -->
-                    <div style="color: rgb(2 63 136); margin: 50px 0px;">
-                        <h1 style="font-weight: 900">FIND A JEWELRY</h1>
-                    </div>
+                    <img src="./assets/images/ireland_logo.png" class="mb-4 mr-1" style="width: 20%;">
+                    <h1 class="d-inline-block" style="color: rgb(2 63 136); margin: 50px 0px;font-weight: 900; width 80%;">FIND A JEWELRY</h1>
                     <h4 class="text-center">Sign In</h4>
                     <form @submit.prevent="checklogin">
                         <div class="input-group form-group">
